@@ -1,0 +1,11 @@
+model = "gpt-5.6-sol"
+model_reasoning_effort = "xhigh"
+
+[desktop]
+analytics = false
+
+[mcp_servers.example]
+command = "/usr/bin/true"
+
+[projects."/tmp/example"]
+trust_level = "trusted"

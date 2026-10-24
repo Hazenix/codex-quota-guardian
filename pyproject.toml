@@ -1,0 +1,18 @@
+[build-system]
+requires = ["setuptools>=61"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codex-quota-guardian"
+version = "0.1.0"
+description = "Safely switch local Codex clients to DeepSeek when the weekly quota is exhausted."
+requires-python = ">=3.9"
+
+[project.scripts]
+codex-quota-guardian = "codex_quota_guardian.cli:main"
+
+[tool.setuptools]
+package-dir = {"" = "src"}
+
+[tool.setuptools.packages.find]
+where = ["src"]

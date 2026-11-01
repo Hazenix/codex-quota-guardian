@@ -60,7 +60,7 @@ The generated configuration has been validated with `codex-cli 0.162.0-alpha.17.
 ### Install
 
 ```bash
-git clone https://github.com/Hazehacker/codex-quota-guardian.git
+git clone https://github.com/Hazenix/codex-quota-guardian.git
 cd codex-quota-guardian
 
 # Preview every path the installer will write.

@@ -60,7 +60,7 @@ Codex Quota Guardian 把这个过程变成一个保守、可恢复的状态机�
 ### 安装
 
 ```bash
-git clone https://github.com/Hazehacker/codex-quota-guardian.git
+git clone https://github.com/Hazenix/codex-quota-guardian.git
 cd codex-quota-guardian
 
 # 预览安装器会写入的全部路径。
